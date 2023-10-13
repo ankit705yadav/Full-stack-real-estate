@@ -8,9 +8,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
       domain="dev-6itv3434ixdiyjt7.us.auth0.com"
-      clientId="KUtjUcZGZHTcEzU0fH9kPaI4g2KMSR1H"
+      clientId="vUjn6qVe40q5mQ2MLYdSPMCAcycRliIm"
       authorizationParams={{
-        redirect_uri: "https://full-stack-real-estate-roan.vercel.app",
+        redirect_uri: "http://localhost:5173/",
       }}
       audience="http://localhost:8000"
       scope="openid profile email"
